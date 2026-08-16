@@ -1,0 +1,139 @@
+{
+  "system": {
+    "name": "Mechanical Services Supervisor Intelligence System",
+    "document_type": "Policy and Source Manifest",
+    "purpose": "Machine-readable registry of governing sources, derived documents, and verification status.",
+    "last_updated": "2026-08-15"
+  },
+  "source_priority_hierarchy": [
+    {
+      "level": 1,
+      "category": "Legislation and Regulatory Requirements",
+      "description": "Applicable laws, regulations, and statutory obligations."
+    },
+    {
+      "level": 2,
+      "category": "University Policies",
+      "description": "Official University of Waterloo policies and institutional requirements."
+    },
+    {
+      "level": 3,
+      "category": "Collective Agreement",
+      "description": "CUPE Local 793 collective agreement obligations and rights."
+    },
+    {
+      "level": 4,
+      "category": "Safety Programs",
+      "description": "Safety management systems, procedures, and hazard control requirements."
+    },
+    {
+      "level": 5,
+      "category": "Department Procedures",
+      "description": "Plant Operations and Mechanical Services procedures."
+    },
+    {
+      "level": 6,
+      "category": "Internal AI Frameworks",
+      "description": "Reasoning frameworks created to assist interpretation and decision-making."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "CUPE-793-001",
+      "title": "CUPE Local 793 Collective Agreement 2024-2027",
+      "organization": "Canadian Union of Public Employees Local 793 / University of Waterloo",
+      "category": "Collective Agreement",
+      "status": "active",
+      "verification_required": true,
+      "original_source_file": "fp2283_cupe-reprt-2024_accessible.pdf",
+      "derived_documents": [
+        "CUPE_793_2024-2027_Full.md",
+        "CUPE_793_Article_Index.md",
+        "CUPE_793_Discipline.md",
+        "CUPE_793_Grievance_Procedure.md",
+        "CUPE_793_Seniority.md",
+        "CUPE_793_Management_Rights.md",
+        "CUPE_793_Hours_Overtime_Callouts.md",
+        "CUPE_793_Leave_and_Accommodation.md"
+      ]
+    },
+    {
+      "source_id": "UW-POLICY-COLLECTION-001",
+      "title": "University of Waterloo Policies",
+      "organization": "University of Waterloo",
+      "category": "University Policies",
+      "status": "active",
+      "verification_required": true,
+      "derived_documents": [
+        "Policy_18_Staff_Employment.md",
+        "Policy_33_Ethical_Behaviour.md",
+        "Policy_34_Health_Safety_Environment.md",
+        "Policy_36_Dispute_Resolution.md",
+        "Policy_46_Information_Management.md",
+        "Policy_58_Accessibility.md",
+        "Policy_65_Equality_in_Employment.md"
+      ]
+    },
+    {
+      "source_id": "PLANT-OPS-001",
+      "title": "Plant Operations Mission, Vision, Values, and Basic Principles",
+      "organization": "University of Waterloo Plant Operations",
+      "category": "Department Context",
+      "status": "active",
+      "verification_required": true,
+      "derived_documents": [
+        "Plant_Operations_Mission_Vision_Values.md",
+        "Mechanical_Services_Operational_Context.md",
+        "Mike_McGuire_Leadership_Values.md"
+      ]
+    },
+    {
+      "source_id": "SAFETY-001",
+      "title": "Occupational Health and Safety Programs",
+      "organization": "University of Waterloo Safety Resources",
+      "category": "Safety Programs",
+      "status": "active",
+      "verification_required": true,
+      "derived_documents": [
+        "OHSA_Supervisor_Rights_and_Responsibilities.md",
+        "HSEMS.md",
+        "Supervisor_Safety_Orientation_SO1100.md",
+        "Incident_Management.md",
+        "Hazardous_Energy_Control_Lockout.md",
+        "Confined_Spaces.md",
+        "Hot_Work.md",
+        "Working_Alone.md",
+        "Working_at_Heights.md",
+        "PPE.md",
+        "Workplace_Inspections.md",
+        "Workplace_Violence_and_Harassment.md"
+      ]
+    }
+  ],
+  "ai_generated_frameworks": {
+    "purpose": "Reasoning and execution support documents created for supervisory assistance.",
+    "authority_level": "Interpretive guidance only. Does not replace official sources.",
+    "documents": [
+      "General_Supervisory_Decision_Framework.md",
+      "Immediate_Safety_Event_Framework.md",
+      "Unsafe_Work_Refusal_Framework.md",
+      "Performance_Concern_Framework.md",
+      "Potential_Discipline_Framework.md",
+      "Harassment_or_Discrimination_Framework.md",
+      "Employee_Conflict_Framework.md",
+      "Incident_Investigation_Framework.md",
+      "Contractor_Issue_Framework.md",
+      "Urgent_Equipment_Failure_Framework.md"
+    ]
+  },
+  "verification": {
+    "verification_process": [
+      "Review applicable official sources.",
+      "Confirm documents remain current.",
+      "Record changes in CHANGELOG.md.",
+      "Update LAST_VERIFIED.md.",
+      "Review impacted guidance documents."
+    ],
+    "current_status": "Initial knowledge base creation complete."
+  }
+}
